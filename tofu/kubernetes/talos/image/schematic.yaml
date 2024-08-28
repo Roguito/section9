@@ -1,6 +1,16 @@
 customization:
   systemExtensions:
     officialExtensions:
+      - siderolabs/binfmt-misc
+      - siderolabs/bnx2-bnx2x
+      - siderolabs/btrfs
+      - siderolabs/drbd
       - siderolabs/i915-ucode
-      - siderolabs/intel-ucode
+      - siderolabs/iscsi-tools
+      - siderolabs/kata-containers
       - siderolabs/qemu-guest-agent
+      - siderolabs/spin
+      - siderolabs/stargz-snapshotter
+      - siderolabs/tailscale
+      - siderolabs/v4l-uvc-drivers
+      - siderolabs/zfs

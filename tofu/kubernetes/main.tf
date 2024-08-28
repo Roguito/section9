@@ -8,9 +8,10 @@ module "talos" {
 proxmox = var.proxmox
 
   image = {
-    version        = "v1.8.0-alpha.1"
+    version        = "v1.7.6"
     schematic = file("${path.module}/talos/image/schematic.yaml")
   }
+  
 
   cilium = {
     values = file("${path.module}/../../k8s/infra/network/cilium/values.yaml")
