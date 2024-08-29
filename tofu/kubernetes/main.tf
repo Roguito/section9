@@ -47,7 +47,7 @@ module "talos" {
     "c03" = {
       host_node     = "hv03"
       machine_type  = "controlplane"
-      ip            = "10.242.99.53"
+      ip            = "10.69.99.53"
       mac_address   = "BC:24:11:2E:C8:02"
       vm_id         = 802
       cpu           = 4
@@ -71,7 +71,7 @@ module "talos" {
       cpu           = 4
       ram_dedicated = 4096
     }
-    "w3" = {
+    "w03" = {
       host_node     = "hv03"
       machine_type  = "worker"
       ip            = "10.69.99.63"
