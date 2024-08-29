@@ -5,7 +5,6 @@ module "talos" {
     proxmox = proxmox
   }
 
-proxmox = var.proxmox
 
   image = {
     version        = "v1.7.6"
