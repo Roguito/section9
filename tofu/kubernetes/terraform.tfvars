@@ -4,5 +4,5 @@ proxmox = {
   endpoint     = "https://192.168.2.191:8006/api2/json"
   insecure     = true
   username     = "root@pam"
-  api_token    = "00bf2ac8-9e4c-47f3-bf35-0a4f46739217"
+  api_token    = "root@pam!tofu=00bf2ac8-9e4c-47f3-bf35-0a4f46739217"
 }
