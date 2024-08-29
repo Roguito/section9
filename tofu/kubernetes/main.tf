@@ -21,7 +21,7 @@ module "talos" {
     name            = "puppetmaster"
     endpoint        = "10.69.99.51"
     gateway         = "10.69.99.1"
-    talos_version   = "v1.8"
+    talos_version   = "v1.7.6"
     proxmox_cluster = "cauldron"
   }
 
