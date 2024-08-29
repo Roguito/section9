@@ -22,7 +22,7 @@ resource "proxmox_virtual_environment_vm" "home_assistant" {
   }
 
   network_device {
-    bridge      = "vmbr0"
+    bridge      = "mgmt"
     mac_address = "BC:24:11:50:A6:33"
   }
 
